@@ -1,0 +1,301 @@
+
+/* wrapper*/
+.main{
+	
+	overflow: hidden;
+	clear: both;
+	background-color:#f3f3f3;
+	width: 100%;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+/*header style*/
+.navbar{
+	position: fixed;
+	
+	background-color:black ;
+	
+	width:100%;
+	border:2px solid white;
+	
+	
+}
+.navbar h1{
+	width: 150px;
+	float:left;
+}
+.menu {
+	margin-top: 10px;
+	width: 1100px;
+	float: right;
+}
+.dropdown li{
+
+	display: inline;
+	font-size: 15px;
+	margin-right:20px;
+	color: white;
+	font-family: 'Audimat';
+	font-size: 15px;
+}
+
+.dropdown a {
+	text-decoration:none;
+	color: white;
+}
+
+.dropdown li:hover {
+font-size: 25px;
+}
+
+
+/*hero-section */
+
+.hero-image {
+   margin-top: 42px;
+  
+   
+   text-align: center; 
+}
+
+.hero-image h1{
+	position:absolute;
+	top:400px;
+	left:0;
+	color: white;
+	font-family:'alex Brush';
+	width:100%;
+	letter-spacing: 10px;
+	word-spacing: 20px;
+	font-size: 40px;
+
+
+}
+
+
+/*contect-section*/
+.container_12 {
+	
+	color:black;
+	margin-left: 190px;
+	margin-right:200px; 
+	font-family: 'sofia';
+	
+
+}
+
+.grid_12 h1{
+	text-align: center;
+	font-size: 40px;
+	color:black;
+
+
+
+}
+
+.container_12 a {
+	text-decoration: none;
+	color: darkgrey;
+
+}
+
+.grid_4 {
+	color:black;
+	padding-bottom: 20px;
+
+}
+
+.alpha {
+	margin-left: 10px;
+}
+.omega {
+	margin-right: 10px;
+}
+
+.row1 
+{	color:black;
+	height: 220px;
+}
+.row2
+{	color:black;
+	height: 220px;
+}
+.row3
+{ color:black;
+	height: 220px;
+}
+
+.grid_6 {
+	
+color:black;
+border:1px;
+}
+
+
+
+
+
+/*search box properties*/
+#search-text-input  {
+	 border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom:0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background-image: url("../img/searchicon.png");
+    background-position: left; 
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 20px;
+}
+#search-text-input:focus {
+    width: 200px;
+
+}
+ #button-holder
+  {
+  	margin-left: 200px;
+  }
+
+
+
+
+
+/*sign-up form container */
+#container_sign_up {
+    padding: 16px;
+    float: left;
+    width: 50%;
+}
+
+/*sign-up form text b0x */
+footer input[type=text], input[type=password] {
+	 width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: table;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+    margin-right: 20px;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 20%;
+    border-radius: 5px ;
+
+}
+/*footer_container_floating*/
+
+.footer_container {
+	float: right;
+	width:45%;
+}
+/*policy list properties*/
+.policy {
+	width: 50%;
+	margin-top: 30px;
+	line-height: 30px;
+	float:left;
+	font-family: 'Delicious';
+	font-size: 20px;
+}
+.policy h2 , .about h2{
+
+	font-family: 'Audimat';
+}
+/*about list properties*/
+.about {
+	width: 50%;
+	margin-top: 30px;
+	line-height: 30px;
+	float:right;
+	font-family: 'Delicious';
+	font-size: 20px;
+
+}
+/*policy about us anchor tag text decoration*/
+.policy a , .about a{
+	text-decoration:none;
+	color: grey;
+}
+/*social icon sizing*/
+.socialicon {
+	padding-top: 40px;
+	float:left;
+	
+}
+
+/*social icon inline display*/
+.socialicon li {
+
+display: inline;
+
+}
+/*social icon header*/
+.socialicon h1 {
+	font-size:40px;
+}
+
+/*social icon button*/
+.socialicon button {
+	width: 80px;
+	height:60px;
+	background-color:lightgrey;
+	border-radius: 5px;
+}
+
+/*footer-properties*/
+footer{
+	
+	color: white;
+	clear: both;
+	overflow: hidden;
+	background-image: url("../img/website-background.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-top:2px solid grey;
+}
+/*social-icons-color*/
+.fa-facebook, .fa-facebook-square {
+    color: #3b5998;
+}
+.fa-twitter, .fa-twitter-square {
+    color: #00aced;
+}
+.fa-google-plus, .fa-google-plus-square {
+    color: #dd4b39;
+}
+
+.fa-linkedin, .fa-linkedin-square {
+    color: #007bb6;
+}
+
+
+
